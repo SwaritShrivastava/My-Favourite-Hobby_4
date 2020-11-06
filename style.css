@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: linear-gradient(#ff7700, #ffe100, #07e8e1, #055ef7, #05f705, #ff0000);
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.links {
+    float: center;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Grenze Gotisch',
+        cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#sachin {
+    transition: transform .2s;
+    transform: scale(0.9);
+}
+
+#sachin:hover {
+    transform: scale(0.8);
+}
